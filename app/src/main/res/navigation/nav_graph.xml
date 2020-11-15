@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/fragment_task5">
+
+    <fragment
+        android:id="@+id/fragment_task5"
+        android:name="com.example.likuhjtgf.Fragment_task5"
+        android:label="fragment_task5"
+        tools:layout="@layout/fragment_task5" >
+        <action
+            android:id="@+id/action_fragment_task5_to_fragment2_task5"
+            app:destination="@id/fragment2_task5"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment2_task5"
+        android:name="com.example.likuhjtgf.Fragment2_task5"
+        android:label="fragment_fragment2_task5"
+        tools:layout="@layout/fragment_fragment2_task5" >
+        <action
+            android:id="@+id/action_fragment2_task5_to_fragment3_task5"
+            app:destination="@id/fragment3_task5" />
+        <action
+            android:id="@+id/action_fragment2_task5_to_fragment_task5"
+            app:destination="@id/fragment_task5" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment3_task5"
+        android:name="com.example.likuhjtgf.Fragment3_task5"
+        android:label="fragment_fragment3_task5"
+        tools:layout="@layout/fragment_fragment3_task5" >
+        <action
+            android:id="@+id/action_fragment3_task5_to_fragment2_task5"
+            app:destination="@id/fragment2_task5" />
+        <action
+            android:id="@+id/action_fragment3_task5_to_fragment_task5"
+            app:destination="@id/fragment_task5" />
+    </fragment>
+</navigation>

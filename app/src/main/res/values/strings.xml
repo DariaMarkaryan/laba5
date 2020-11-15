@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">likuhjtgf</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+    <string name="title_activity_main3">MainActivity3</string>
+    <string name="title_activity_about">About</string>
+    <string name="first">to second</string>
+    <string name="second">to second</string>
+    <string name="third">to third</string>
+    <string name="toFirst">to first</string>
+    <string name="activ1">activity 1</string>
+    <string name="activ2">activity 2</string>
+    <string name="activ3">activity 3</string>
+    <string name="about">ABOUT</string>
+    <string name="goto_about">About</string>
+    <string name="about_text">Молчи, скрывайся и таи \n
+И чувства и мечты свои —\n
+Пускай в душевной глубине\n
+Встают и заходят оне\n
+Безмолвно, как звезды в ночи,-\n
+Любуйся ими — и молчи.\n
+\n
+Как сердцу высказать себя?\n
+Другому как понять тебя?\n
+Поймёт ли он, чем ты живёшь?\n
+Мысль изречённая есть ложь.\n
+Взрывая, возмутишь ключи,-\n
+Питайся ими — и молчи.\n
+\n
+Лишь жить в себе самом умей —\n
+Есть целый мир в душе твоей\n
+Таинственно-волшебных дум;\n
+Их оглушит наружный шум,\n
+Дневные разгонят лучи,-\n
+Внимай их пенью — и молчи!..\n</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
